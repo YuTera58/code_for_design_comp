@@ -489,7 +489,73 @@
 
     <!-- ************************************************ フッター開始 -->
     <footer id="footer">
+      <div class="container">
+        <div class="row">
+ 
+          <!-- 2カラムに分けたレイアウトの左側カラム -->
+          <!-- 親要素にposition-relativeを設定 -->
+          <div class="col-12 col-lg-6 position-relative">
+            <!-- 左側カラムのレイアウトをさらに分けるためにrowを使用 -->
+            <div class="row pt-5">
+ 
+              <!-- 画面をさらに2:10に分割 -->
+              <!-- ここは2:10の2の部分 -->
+              <div class="col-lg-2 text-center my-3">
+ 
+                <!-- サイトロゴ -->
+                <!-- footer_brand_logoの独自クラスを追加 -->
+                <img class="img-fluid footer_brand_logo" src="img/site_logo.png" alt="サンプル画像">
+              </div>
+              <div class="col-lg-10 align-self-center my-3">
+                <!-- footer_textの独自クラスを追加してフォント等を変更 -->
+                <h2 class="m-0 footer_text">SAMURAI RESTAURANT</h2>
+              </div>
+            </div>
+ 
+            <!-- 営業時間などのテキストを追加 -->
+            <!-- 独自クラスrestaurant_infoを追加 -->
+            <div class="restaurant_info py-3">
+              <div class="d-flex mb-3">
+                <img src="img/icon-Marker.png" alt="marker">
+                <p class="p-0 m-0">東京都渋谷区道玄坂2丁目11-1Gスクエア渋谷道玄坂4F</p>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="img/icon-Clock.png" alt="clock">
+                <p class="p-0 m-0">12:00-22:00&nbsp;&nbsp;(定休日：火曜日、水曜日)</p>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="img/icon-Phone.png" alt="phone">
+                <p class="p-0 m-0">03-1234-5678</p>
+              </div>
+              <div class="d-flex mb-3">
+                <img src="img/icon-Mail.png" alt="mail">
+                <p class="p-0 m-0">test@example.com</p>
+              </div>
+            </div>
+ 
+            <!-- コピーライトを追加 -->
+            <!-- copy_rightクラスでabsoluteを設定。align-items-centerで上下中央揃え。 -->
+            <div class="copy_right align-items-center">
+              <p>
+                ©SAMURAI KITCHEN, All Rights Reserved.
+              </p>
+ 
+              <!-- SNSアイコンを表示 -->
+              <!-- SNSアイコンに独自クラスsns_imgを追加 -->
+              <img src="img/icon-facebook.png" class="sns_img" alt="facebook">
 
+              <!-- SNSアイコンに独自クラスsns_imgを追加 -->
+              <img src="img/icon-twitter.png" class="sns_img" alt="twitter">
+            </div>
+          </div>
+ 
+          <!-- 2カラムに分けたレイアウトの右側カラム -->
+          <div class="col-lg-6 d-none d-lg-block">
+            <!-- 背景画像を表示 -->
+            <img src="img/background-footer.jpg" alt="背景画像">
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- ************************************************ フッター終了 -->
   </main>
